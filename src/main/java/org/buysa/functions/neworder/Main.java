@@ -4,14 +4,11 @@ package org.buysa.functions.neworder;
 
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.config.SslConfigs;
-import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Map;
 import java.util.Properties;
 import java.util.logging.Logger;
 

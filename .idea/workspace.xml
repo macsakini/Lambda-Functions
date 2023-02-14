@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="758857ee-c936-45b4-aee0-c304279db5f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/private/client.truststore.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/private/server.keystore.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buysa/functions/neworder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buysa/functions/neworder/Slack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarfiles/latest/project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/buysa/functions/metrics/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buysa/functions/metrics/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/buysa/functions/newcustomer/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buysa/functions/newcustomer/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/buysa/functions/neworder/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buysa/functions/neworder/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buysa/functions/neworder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buysa/functions/neworder/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +47,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/mac/IdeaProjects/buysaeventsfunctions/private",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "/Users/mac/IdeaProjects/buysaeventsfunctions",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/private" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/private" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/private" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.buysaeventsfunctions [buildZip]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
       <option name="MAIN_CLASS_NAME" value="org.buysa.functions.neworder.Main" />
       <module name="buysaeventsfunctions.main" />
@@ -134,9 +132,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.buysaeventsfunctions [buildZip]" />
         <item itemvalue="Gradle.buysaeventsfunctions [dependencies]" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.buysaeventsfunctions [buildZip]" />
       </list>
     </recent_temporary>
   </component>
