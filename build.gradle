@@ -3,7 +3,7 @@ plugins {
 }
 group 'org.buysa.functions'
 
-version '1.0-Alpha'
+version '1.0-Alpha-Go'
 
 repositories {
     mavenCentral()
