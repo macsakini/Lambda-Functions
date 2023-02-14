@@ -14,7 +14,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read
+  contents: read, write
 
 jobs:
   build:
@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: latest Jar File
-        path: jarfiles/latest/project.jar
+        path: .
