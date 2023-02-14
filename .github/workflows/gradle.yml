@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: latest Jar File
-        path: build/libs/project.jar
+        path: jarfiles/latest/project.jar
