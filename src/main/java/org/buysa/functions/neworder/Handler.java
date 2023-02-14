@@ -1,4 +1,4 @@
-package org.buysa.functions;
+package org.buysa.functions.neworder;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
