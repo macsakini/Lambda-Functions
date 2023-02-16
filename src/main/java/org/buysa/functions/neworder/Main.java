@@ -47,7 +47,7 @@ public class Main{
 
         KafkaProducer<String,String> producer = new KafkaProducer<String, String>(properties);
 
-        ProducerRecord<String, String> message = new ProducerRecord<String, String>("items", "hshsjsj", "jsjsjsj");
+        ProducerRecord<String, String> message = new ProducerRecord<String, String>("athena", "7890", "YEEHE");
 
         try {
             producer.send(message, (metadata, exception) -> {
@@ -64,7 +64,6 @@ public class Main{
                 }
             });
             producer.flush();
-//            slack.slackSend("Template Message");
         } catch(Exception e){
             e.printStackTrace();
         }
