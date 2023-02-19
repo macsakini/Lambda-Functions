@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: org.buysa.functions.neworder.Handler
+      CodeUri: /Users/mac/IdeaProjects/buysaeventsfunctions
+      Runtime: java11
+      Architectures:
+        - arm64

@@ -1,9 +1,2 @@
 rootProject.name = 'buysaeventsfunctions'
 
-//def propFile = rootProject.
-//
-//def properties = new Properties()
-//
-//properties.load(new FileInputStream(propFile))
-//
-//ext.password = properties['SSL_xPASSWORD']

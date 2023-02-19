@@ -16,9 +16,9 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'org.apache.kafka:kafka-clients:3.4.0'
-    implementation files("src/main/resources")
+    implementation files("/Users/mac/IdeaProjects/buysaeventsfunctions/local.properties")
+    implementation files("/Users/mac/IdeaProjects/buysaeventsfunctions/private")
     implementation 'org.json:json:20220924'
-
 }
 
 
@@ -29,21 +29,6 @@ task buildZip(type: Jar) {
         from configurations.runtimeClasspath
     }
 }
-
-//tasks.register("newOrder") {
-//    destinationDirectory = project.layout.buildDirectory.dir("libs")
-//    source(project.layout.projectDirectory.file('src.org.buysa.functions.neworder'))
-//}
-//
-//tasks.register("newCustomer") {
-//    destinationDirectory = project.layout.buildDirectory.dir("libs")
-//    source(project.layout.projectDirectory.file('src.org.buysa.functions.newcustomer'))
-//}
-//
-//tasks.register("Metrics") {
-//    destinationDirectory = project.layout.buildDirectory.dir("libs")
-//    source(project.layout.projectDirectory.file('src.org.buysa.functions.metrics'))
-//}
 
 test {
     useJUnitPlatform()
