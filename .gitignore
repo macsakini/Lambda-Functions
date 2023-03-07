@@ -5,6 +5,11 @@ build/
 !**/src/test/**/build/
 /src/main/resources/private/*
 
+
+private
+local.properties
+src/main/resources/private
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
